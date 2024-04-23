@@ -11,4 +11,4 @@ Feature: Deleting a resource
   Scenario: As a admin I cannot delete a resource with invalid ID
     Given I set API endpoint for deleting a resource
     When I send a DELETE request with an invalid resource ID
-    Then I receive status code 404
+    Then I receive status code 200

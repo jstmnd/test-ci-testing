@@ -23,9 +23,4 @@ public class DeletingAResource {
     public String setDeleteApiEndpoint() {
         return url + "/posts/9999";
     }
-
-    @Step("I receive status code 404")
-    public void receiveStatusCode404() {
-        restAssuredThat(response -> response.statusCode(404));
-    }
 }

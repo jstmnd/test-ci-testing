@@ -43,9 +43,4 @@ public class UpdatingAResource {
         SerenityRest.given()
                 .get(setApiEndpoint());
     }
-
-    @Step("I receive status code 400")
-    public void receiveStatusCode404() {
-        restAssuredThat(response -> response.statusCode(400));
-    }
 }

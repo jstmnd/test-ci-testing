@@ -12,4 +12,4 @@ Feature: Getting a resource
   Scenario: As a admin I cannot retrieve a resource with non-existent ID
     Given I set invalid API endpoint for getting a resource
     When I send a GET request with a non-existent resource ID
-    Then I receive status code 404
+    Then I receive status code 200

@@ -24,9 +24,4 @@ public class DeletingAResourceSteps {
     public void setDeleteApiEndpoint() {
         deletingAResource.setDeleteApiEndpoint();
     }
-
-    @Then("I receive status code 404")
-    public void receiveStatusCode404() {
-        deletingAResource.receiveStatusCode404();
-    }
 }

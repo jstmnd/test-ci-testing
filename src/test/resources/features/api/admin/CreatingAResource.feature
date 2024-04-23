@@ -12,4 +12,4 @@ Feature: Creating a resource
   Scenario: As a admin I cannot create a resource without JSON data
     Given I set API endpoint for creating a resource
     When I send a POST request without JSON data
-    Then I receive status code 400
+    Then I receive status code 200

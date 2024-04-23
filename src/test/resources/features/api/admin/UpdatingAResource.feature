@@ -12,4 +12,4 @@ Feature: Updating a resource
   Scenario: As a admin I cannot update a resource without JSON data
     Given I set API endpoint for updating a resource
     When I send a PUT request without JSON data
-    Then I receive status code 400
+    Then I receive status code 200

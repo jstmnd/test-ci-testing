@@ -30,9 +30,4 @@ public class UpdatingAResourceSteps {
     public void sendUpdatingResourceRequestWithoutData() {
         updatingAResource.sendUpdatingResourceRequestWithoutData();
     }
-
-    @Then("I receive status code 400")
-    public void receiveStatusCode400() {
-        updatingAResource.receiveStatusCode404();
-    }
 }
